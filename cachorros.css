@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f0f0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu img {
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -90px;
+    margin-top: 20px;
+}
+
+.menuLink {
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.menuLink a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 60px;
+    color: black
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #fc9483;
+}
+
+
+/*
+    ACABA OS RECICLADOS
+*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.fotos {
+    width: 49.5%;
+    display: inline-block;
+    align-items: center;
+}
+
+.fotos img {
+    max-width: 500px;
+    max-height: 550px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+    font-size: 40px;
+}
